@@ -33,17 +33,16 @@ body {
 }
 .cards {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 35px;
 }
 .profile {
   margin-top: 38px;
-  width: 140px;
+  width: 188px;
 }
 .profile img {
-  width: 150px;
+  width: 160px;
   object-fit: none;
 }
 .paragraph {
@@ -57,7 +56,7 @@ body {
 }
 
 .profile img:hover {
-  border: 4px solid white;
+  outline: 4px solid white;
 }
 .profileBtn {
   display: flex;
